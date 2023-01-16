@@ -3,9 +3,33 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C76B9E8-925C-478C-92CD-AC23C7312025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Core", "EasyChords.Core\EasyChords.Core.csproj", "{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Data", "EasyChords.Data\EasyChords.Data.csproj", "{724594FB-EFE2-440B-8C8B-83FE7E525DCB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724594FB-EFE2-440B-8C8B-83FE7E525DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724594FB-EFE2-440B-8C8B-83FE7E525DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724594FB-EFE2-440B-8C8B-83FE7E525DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724594FB-EFE2-440B-8C8B-83FE7E525DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5840CFE1-2AB3-485B-A38F-2E7DCF8BAC24} = {4C76B9E8-925C-478C-92CD-AC23C7312025}
+		{724594FB-EFE2-440B-8C8B-83FE7E525DCB} = {4C76B9E8-925C-478C-92CD-AC23C7312025}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54B4830B-673A-4B58-B69D-82AE970809DF}
