@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Data", "src\EasyChords.Data\EasyChords.Data.csproj", "{CDFD77AF-1057-4DB4-83D3-D1382F558A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Core", "src\EasyChords.Core\EasyChords.Core.csproj", "{75AC3E95-04CF-4CC2-ABBC-37E5F008B81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Services", "src\EasyChords.Services\EasyChords.Services.csproj", "{9201903F-DF42-4524-B97E-1594C3A6EF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Infrastructure", "src\EasyChords.Infrastructure\EasyChords.Infrastructure.csproj", "{E7CE8C3F-0349-49C7-931C-A7C836577889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.Shared", "src\EasyChords.Shared\EasyChords.Shared.csproj", "{18DEFA3D-C643-4919-94DF-3D7504BAFBBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.WebUI", "src\EasyChords.WebUI\EasyChords.WebUI.csproj", "{8F9A6E96-3B24-41B3-B977-64904E3C0219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyChords.WebAPI", "src\EasyChords.WebAPI\EasyChords.WebAPI.csproj", "{84263E19-9962-4074-A280-75A72B88E004}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFD77AF-1057-4DB4-83D3-D1382F558A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFD77AF-1057-4DB4-83D3-D1382F558A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFD77AF-1057-4DB4-83D3-D1382F558A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFD77AF-1057-4DB4-83D3-D1382F558A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AC3E95-04CF-4CC2-ABBC-37E5F008B81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AC3E95-04CF-4CC2-ABBC-37E5F008B81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AC3E95-04CF-4CC2-ABBC-37E5F008B81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AC3E95-04CF-4CC2-ABBC-37E5F008B81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9201903F-DF42-4524-B97E-1594C3A6EF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9201903F-DF42-4524-B97E-1594C3A6EF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9201903F-DF42-4524-B97E-1594C3A6EF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9201903F-DF42-4524-B97E-1594C3A6EF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CE8C3F-0349-49C7-931C-A7C836577889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CE8C3F-0349-49C7-931C-A7C836577889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CE8C3F-0349-49C7-931C-A7C836577889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CE8C3F-0349-49C7-931C-A7C836577889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DEFA3D-C643-4919-94DF-3D7504BAFBBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DEFA3D-C643-4919-94DF-3D7504BAFBBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DEFA3D-C643-4919-94DF-3D7504BAFBBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DEFA3D-C643-4919-94DF-3D7504BAFBBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9A6E96-3B24-41B3-B977-64904E3C0219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9A6E96-3B24-41B3-B977-64904E3C0219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9A6E96-3B24-41B3-B977-64904E3C0219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9A6E96-3B24-41B3-B977-64904E3C0219}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84263E19-9962-4074-A280-75A72B88E004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84263E19-9962-4074-A280-75A72B88E004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84263E19-9962-4074-A280-75A72B88E004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84263E19-9962-4074-A280-75A72B88E004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
