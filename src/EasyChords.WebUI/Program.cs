@@ -1,7 +1,11 @@
-var builder = WebApplication.CreateBuilder(args);
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllersWithViews();
 // Add services to the container.
 builder.Services.AddRazorPages();
+string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<EasyChords.Data.EasyChordsDbContext>(options => options.UseSqlServer(connection));
 
 var app = builder.Build();
 
