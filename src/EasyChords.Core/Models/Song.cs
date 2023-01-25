@@ -12,6 +12,7 @@ namespace EasyChords.Core.Models
         public string Title { get; set; }
         public string Lyrics { get; set; }
         public Genre Genre { get; set; }
+        public DateTime CreationDate { get; set; }
         public virtual IList<Chords> Chords { get; set; }
         public virtual IList<Performer> Performers { get; set; }
         public Song()

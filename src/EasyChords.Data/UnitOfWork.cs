@@ -1,5 +1,6 @@
 ﻿using EasyChords.Core.Interfaces;
 using EasyChords.Core.Models;
+using EasyChords.Core.Models.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

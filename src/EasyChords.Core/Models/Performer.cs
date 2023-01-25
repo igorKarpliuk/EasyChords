@@ -8,8 +8,9 @@ namespace EasyChords.Core.Models
 {
     public class Performer
     {
-        int Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
+        public DateTime Date { get; set; }
         public byte[] Photo { get; set; }
         public virtual IList<Song> Songs { get; set; }
         public Performer()

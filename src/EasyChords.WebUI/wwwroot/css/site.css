@@ -20,3 +20,180 @@ html {
 body {
   margin-bottom: 60px;
 }
+.nav-active {
+    border-bottom: 3px solid #3a81bd;
+}
+.container {
+    padding: 0 10% 0 10%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: content;
+    align-content: stretch;
+}
+
+    .flex > div {
+        padding: 15px;
+    }
+
+.flex-1 {
+    flex: 1 auto;
+}
+
+.flex-2 {
+    flex: 2 auto;
+}
+
+.flex-3 {
+    flex: 3 auto;
+}
+
+.flex-4 {
+    flex: 4 auto;
+}
+
+.flex-5 {
+    flex: 5 auto;
+}
+
+.flex-6 {
+    flex: 6 auto;
+}
+.w-15 {
+    width: 15%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+.form-label {
+    display: inline-block;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.ml {
+    margin-left: 10px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.pt {
+    padding-top: 10px;
+}
+
+.pb {
+    padding-bottom: 10px;
+}
+
+.pl {
+    padding-left: 10px;
+}
+
+.pr {
+    padding-right: 10px;
+}
+
+.form-input {
+    padding: 8px 10px;
+    font-size: 105%;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    transition: box-shadow 0.2s;
+}
+    .form-input:focus {
+        outline: none;
+        border: 1px solid #245eb0;
+        box-shadow: 0px 0px 4px 0px #1383a4;
+    }
+.grey-back {
+    background-color: #dcdcdc;
+}
+
+.white-back {
+    background-color: #ffffff;
+}
+
+.text-green {
+    color: #0a8438;
+}
+
+.text-red {
+    color: #ff0000;
+    display: block;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+.button {
+    padding: 8px 12px;
+    border: 2px solid #cacaca;
+    border-radius: 8px;
+    outline: 3px solid #ffffff;
+    font-size: 101%;
+}
+.button-blue-back {
+    background-color: #3a81bd;
+    color: #ffffff;
+    border: 2px solid #3f80ca;
+}
+
+    .button-blue-back:hover {
+        background-color: #1274c7;
+    }
+
+.button-green-back {
+    background-color: #088e36;
+    color: #ffffff;
+    border: 2px solid #73d695;
+}
+
+    .button-green-back:hover {
+        background-color: #066627;
+    }
+
+.button-red-back {
+    background-color: #cb511e;
+    color: #ffffff;
+    border: 2px solid #e49776;
+}
+
+    .button-red-back:hover {
+        background-color: #96370f;
+    }

@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EasyChords.Core.Models.Identity;
 
 namespace EasyChords.Core.Models
 {
     public class Chords
     {
         public int Id { get; set; }
-        public DateOnly DateOfCreation { get; set; }
+        public DateTime DateOfCreation { get; set; }
         public string Text { get; set; }
         public int LikesCount { get; set; }
         public int ViewsCount { get; set; }
